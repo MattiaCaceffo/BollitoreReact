@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Calculator from './Calculator';
+import CalculatorDue from "./CalculatorDue"
 
 
 class App extends Component {
@@ -13,9 +14,13 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+            Questo è lo stimatore di bollitura!
         </p>
 
+          <Calculator/>
+          <h1>Calcolatore due</h1>
+          //Scale disponibili: f,c,k
+          <CalculatorDue scale={"f"}/>
           <Calculator/>
       </div>
     );
