@@ -17,7 +17,9 @@ class TemperatureInput extends React.Component {
         this.props.onTemperatureChange(e.target.value);
     }
 
-    //prova pull
+//Ufffa
+
+
 
     render() {
         const temperature = this.props.temperature;
