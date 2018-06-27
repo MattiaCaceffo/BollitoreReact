@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Calculator from './Calculator';
 import CalculatorDue from "./CalculatorDue"
+import TemperatureInput from "./TemperatureInput"
 
 
 class App extends Component {
@@ -21,7 +22,7 @@ class App extends Component {
           <h1>Calcolatore due</h1>
           //Scale disponibili: f,c,k
           <CalculatorDue scale={"f"}/>
-          <Calculator/>
+          <TemperatureInput scale={"c"}/>
       </div>
     );
   }
