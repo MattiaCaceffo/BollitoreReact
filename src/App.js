@@ -21,8 +21,7 @@ class App extends Component {
           <Calculator/>
           <h1>Calcolatore due</h1>
           //Scale disponibili: f,c,k
-          <CalculatorDue scale={"f"}/>
-          <TemperatureInput scale={"c"}/>
+          <CalculatorDue/>
       </div>
     );
   }

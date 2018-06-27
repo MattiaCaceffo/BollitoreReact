@@ -17,16 +17,13 @@ class TemperatureInput extends React.Component {
         this.props.onTemperatureChange(e.target.value);
     }
 
-//Ufffa
-
-
 
     render() {
         const temperature = this.props.temperature;
         const scale = this.props.scale;
         return (
             <fieldset>
-                <legend>Inserisci la temperatura in {scaleNames[scale]}:</legend>
+                <legend>Enter temperature in {scaleNames[scale]}:</legend>
                 <input value={temperature}
                        onChange={this.handleChange} />
             </fieldset>
