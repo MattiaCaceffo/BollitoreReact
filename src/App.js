@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Calculator from './Calculator';
 import CalculatorDue from "./CalculatorDue"
-import TemperatureInput from "./TemperatureInput"
+import SignUpDialog from "./SignUpDialog"
 
 
 class App extends Component {
@@ -22,6 +22,7 @@ class App extends Component {
           <h1>Calcolatore due</h1>
           //Scale disponibili: f,c,k
           <CalculatorDue/>
+          <SignUpDialog />
       </div>
     );
   }
